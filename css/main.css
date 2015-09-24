@@ -1,0 +1,528 @@
+/*****************************************
+				FONTS
+*****************************************/
+
+@font-face {
+    font-family: VegurLight;
+    src: url("../fonts/Vegur-Light.otf");
+}
+
+@font-face {
+    font-family: VegurRegular;
+    src: url("../fonts/Vegur-Regular.otf");
+}
+
+@font-face {
+    font-family: VegurBold;
+    src: url("../fonts/Vegur-Bold.otf");
+}
+
+@font-face {
+	font-family: OverlockRegular;
+	src: url("../fonts/Overlock-Regular-OTF.otf");
+}
+
+@font-face {
+	font-family: OverlockBold;
+	src: url("../fonts/Overlock-Bold-OTF.otf");
+}
+
+/*****************************************
+			GENERAL STYLING
+*****************************************/
+
+body, html {
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+    font-family: VegurLight;
+    margin-bottom: 0;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.parallax {
+	font-size: 200%;
+}
+
+/*****************************************
+			   NAVIGATION
+*****************************************/
+.navbar {
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+/*	background-color: rgba(0,0,0,0.2);
+*/}
+.nav-name{
+	float: left;
+	margin: 10px 0px 10px 50px;
+}
+.navTop{
+	float: right;
+}
+ul#nav{
+	margin: 15px 30px 0px 0px;
+	list-style: none;
+}
+ul#nav li {
+	font-size: 1.8rem;
+	float: right;
+	margin: 0 20px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+ul#nav li a {
+	text-decoration: none;
+	color: black;
+	font-family: VegurRegular;
+}
+ul#nav li a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+/*****************************************
+		PARALLAX SECTION CONTENT
+*****************************************/	
+.hometxt {
+	position: absolute;
+	font-family: VegurBold;
+	font-size: 2.8em;
+	line-height: 30px;
+	text-align: right;
+	margin-left: 72.9166%;
+	z-index: 0;
+}
+
+.hometxt img {
+	margin-top: 60px;
+}
+
+/************ ABOUT ME **************/
+.aboutmewrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.aboutus {
+	font-family: VegurBold;
+	font-size: 1em;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.about-txt {
+	font-family: VegurLight;
+	font-size: 0.7em;
+	padding-top: 20px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.process-logo img{
+	display: block;
+	margin: 0 auto;
+}
+
+.process-header {
+	font-size: 0.8em;
+	font-family: VegurRegular;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.process-desc {
+	font-size: 0.6em;
+	text-align: center;
+	padding-top: 5px;
+}
+
+/************ PORTFOLIO **************/
+
+.portfolio-section-header {
+	color: white;
+	font-family: VegurBold;
+	text-align: center;
+	padding-top: 150px;
+	font-size: 2em;
+}
+
+.portfolio-wrapper {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.portfolio-img img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.portfolio-title {
+	font-family: VegurLight;
+	font-size: 0.8em;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.portfolio-img-1 {
+	width: 400px;
+	height: 250px;
+	margin-top: 50px;
+	box-shadow: 10px 10px 25px #cccccc;
+}
+
+.portfolio-img-2 {
+	width: 400px;
+	height: 250px;
+	margin-top: 50px;
+	box-shadow: 10px 10px 25px #cccccc;
+}
+
+.fade {
+   opacity: 0.9;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+    opacity: 1;
+}
+
+/************ CONTACT **************/
+
+.team-wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.team-header {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.team-pic {
+	margin-top: 20px;
+}
+
+.team-pic img {
+	display: block;
+	margin: 0 auto;
+}
+
+.team-name {
+	font-size: 0.8em;
+	font-family: VegurRegular;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.team-desc {
+	font-size: 0.7em;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.contact-section-header {
+	color: black;
+	font-family: VegurBold;
+	text-align: center;
+	padding-top: 150px;
+	font-size: 2em;
+}
+
+.contact-info {
+	font-family: VegurLight;
+	font-size: 0.7em;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.contact-logo-wrapper {
+	padding-left: 25px;
+	width: 20%;
+	margin: 0 auto;
+}
+
+.contact-icon {
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 50px;
+	width: 50px;
+	margin-top: 40px;
+}
+
+.linkedin {
+	background-image: url("../images/linkedin.ico");
+}
+
+.github {
+	background-image: url("../images/github.ico");
+}
+
+.behance {
+	background-image: url("../images/behance.ico");
+}
+
+.twitter {
+	background-image: url("../images/twitter.ico");
+}
+
+/*****************************************
+			   PARALLAX
+*****************************************/
+
+.parallax {
+/*    height: 500px;  fallback for older browsers 
+    height: 800px;*/
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+}
+
+.parallax__group {
+    position: relative;
+/*    height: 500px;  fallback for older browsers 
+    height: 800px;*/
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.parallax__layer--fore {
+    -webkit-transform: translateZ(90px) scale(.7);
+    transform: translateZ(90px) scale(.7);
+    z-index: 1;
+}
+
+.parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+}
+
+.parallax__layer--back {
+    -webkit-transform: translateZ(-300px) scale(2);
+    transform: translateZ(-300px) scale(2);
+    z-index: 3;
+}
+
+.parallax__layer--deep {
+    -webkit-transform: translateZ(-600px) scale(3);
+    transform: translateZ(-600px) scale(3);
+    z-index: 2;
+}
+
+/*****************************************
+			PARALLAX GROUPS
+*****************************************/
+#group2 {
+	z-index: 3; /* slide under groups 1 and 3 */
+}
+#group2 .parallax__layer--back {
+	background-image: url("../images/paint.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+
+#group3 {
+	z-index: 4; /* slide over group 2 and 4 */
+	height: 880px;
+}
+#group3 .parallax__layer--base {
+	background: white;
+}
+
+#group4 {
+	z-index: 2; /* slide under group 3 and 5 */
+	height: 400px;
+}
+#group4 .parallax__layer--deep {
+	background-image: url("../images/productivity.jpg"); 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 900px;
+}
+#group4 .parallax__layer--base {
+
+}
+
+#group4 .parallax__layer--back {
+}
+
+#group5 {
+	z-index: 3; /* slide over group 4 and 6 */
+	height: 800px;
+}
+#group5 .parallax__layer--base {
+	background-color: white;
+}
+
+#group6 {
+	z-index: 2; /* slide under group 5 and 7 */
+	height: 400px;
+}
+#group6 .parallax__layer--back {
+	background-image: url("../images/contact.jpg"); 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 600px;
+  	margin-top: -100px;
+}
+
+#group7 {
+	z-index: 3; /* slide over group 7 */
+	height: 600px;
+}
+#group7 .parallax__layer--base {
+	background: white;
+}
+
+/*****************************************
+			MEDIA QUERIES
+*****************************************/
+/* Larger than mobile */
+@media (min-width: 320px) {
+	.hometxt {
+		font-size: 1.45em;
+		line-height: 40px;
+		margin-top: 240px;
+		margin-left: 0px;
+	}
+
+	.aboutmewrapper {
+		width: 95%;
+	}
+
+	.portfolio-wrapper {
+		width: 90%;
+	}
+
+	ul#nav li {
+		font-size: 1.1rem;
+		margin: 0 10px;
+		margin-top: -15px;
+	}
+}
+
+
+@media (min-width: 400px) {
+	.hometxt {
+		font-size: 1.8em;
+		line-height: 60px;
+		margin-top: 240px;
+		margin-left: 0px;
+	}
+
+	.aboutmewrapper {
+		width: 90%;
+	}
+
+	.portfolio-wrapper {
+		width: 85%;
+	}
+
+	ul#nav li {
+		font-size: 1.3rem;
+		margin-top: 0px;
+		margin: 0 10px;
+	}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.hometxt {
+		font-size: 1.8em;
+		line-height: 60px;
+		margin-top: 200px;
+	}
+
+	.aboutmewrapper {
+		width: 90%;
+	}
+
+	.portfolio-wrapper {
+		width: 80%;
+	}
+
+	ul#nav li {
+		font-size: 1.8rem;
+		margin-top: 5px;
+		margin: 0 20px;
+	}
+	ul#nav li {
+		margin: 0 10px 0px 10px;
+	}
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.hometxt {
+		font-size: 2.3em;
+		line-height: 80px;
+		margin-top: 170px;
+	}
+
+	.aboutmewrapper {
+		width: 80%;
+	}
+
+	.portfolio-wrapper {
+		width: 70%;
+	}
+	ul#nav li {
+		margin: 0 10px 0px 10px;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.hometxt {
+		font-size: 2.8em;
+		line-height: 100px;
+		margin-top: 170px;
+	}
+
+	.aboutmewrapper {
+		width: 70%;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	.hometxt {
+		font-size: 2.8em;
+		line-height: 100px;
+		margin-top: 170px;
+	}
+
+	.aboutmewrapper {
+		width: 70%;
+	}
+}
