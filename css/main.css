@@ -84,7 +84,7 @@ ul#nav li a {
 }
 ul#nav li a:hover {
 	text-decoration: none;
-	color: blue;
+	color: rgb(38, 153, 218);
 }
 
 /*****************************************
@@ -159,12 +159,6 @@ ul#nav li a:hover {
 	margin: 0 auto;
 }
 
-.portfolio-img img{
-	display: block;
-	margin: 0 auto;
-	margin-top: 50px;
-}
-
 .portfolio-title {
 	font-family: VegurLight;
 	font-size: 0.8em;
@@ -173,21 +167,42 @@ ul#nav li a:hover {
 }
 
 .portfolio-img-1 {
-	width: 400px;
+	background: url("../images/ilizwilam.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center; 
 	height: 250px;
 	margin-top: 50px;
 	box-shadow: 10px 10px 25px #cccccc;
 }
 
 .portfolio-img-2 {
-	width: 400px;
+	background: url("../images/g2g.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center; 
 	height: 250px;
 	margin-top: 50px;
 	box-shadow: 10px 10px 25px #cccccc;
 }
 
 .portfolio-img-3 {
-	width: 450px;
+	background: url("../images/moonlighting.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center; 
+	display: inline-block;
+	height: 250px;
+	margin-top: 50px;
+	box-shadow: 10px 10px 25px #cccccc;
+}
+
+.portfolio-img-4 {
+	background: url("../images/choosinggreen.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center; 
+	display: inline-block;
 	height: 250px;
 	margin-top: 50px;
 	box-shadow: 10px 10px 25px #cccccc;
@@ -399,7 +414,7 @@ textarea {
 
 #group3 {
 	z-index: 4; /* slide over group 2 and 4 */
-	height: 880px;
+	height: 850px;
 }
 #group3 .parallax__layer--base {
 	background: white;
@@ -426,7 +441,7 @@ textarea {
 
 #group5 {
 	z-index: 3; /* slide over group 4 and 6 */
-	height: 800px;
+	height: 850px;
 }
 #group5 .parallax__layer--base {
 	background-color: white;
@@ -506,11 +521,9 @@ textarea {
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-	.hometxt {
-		font-size: 1.8em;
-		line-height: 60px;
-		margin-top: 200px;
+@media (min-width: 550px) and (max-width: 749px) {
+	.hometxt img {
+		width: 400px;
 	}
 
 	.aboutmewrapper {
@@ -530,14 +543,20 @@ textarea {
 		margin: 0 10px 0px 10px;
 	}
 
+	#group3 {
+		height: 1000px;
+	}
+
+	#group7 {
+		height: 700px;
+	}
+
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
-	.hometxt {
-		font-size: 2.3em;
-		line-height: 80px;
-		margin-top: 170px;
+@media (min-width: 750px) and (max-width: 999px) {
+	.hometxt img {
+		width: 450px;
 	}
 
 	.aboutmewrapper {
@@ -545,15 +564,23 @@ textarea {
 	}
 
 	.portfolio-wrapper {
-		width: 70%;
+		width: 80%;
 	}
 	ul#nav li {
 		margin: 0 10px 0px 10px;
 	}
+
+	#group3 {
+		height: 1000px;
+	}
+
+	#group7 {
+		height: 700px;
+	}
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (max-width: 1199px) {
 	.hometxt {
 		font-size: 2.8em;
 		line-height: 100px;
@@ -561,19 +588,17 @@ textarea {
 	}
 
 	.aboutmewrapper {
-		width: 70%;
+		width: 80%;
+	}
+
+	#group3 {
+		height: 920px;
 	}
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-	.hometxt {
-		font-size: 2.8em;
-		line-height: 100px;
-		margin-top: 170px;
-	}
-
 	.aboutmewrapper {
-		width: 70%;
+		width: 75%;
 	}
 }
