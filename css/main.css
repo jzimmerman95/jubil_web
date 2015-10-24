@@ -67,11 +67,10 @@ body {
 	float: right;
 }
 ul#nav{
-	margin: 15px 30px 0px 0px;
+	margin: 15px 10px 0px 0px;
 	list-style: none;
 }
 ul#nav li {
-	font-size: 1.8rem;
 	float: right;
 	margin: 0 20px;
 	margin-top: 5px;
@@ -81,6 +80,7 @@ ul#nav li a {
 	text-decoration: none;
 	color: black;
 	font-family: VegurRegular;
+	font-size: 1.3em;
 }
 ul#nav li a:hover {
 	text-decoration: none;
@@ -101,7 +101,7 @@ ul#nav li a:hover {
 }
 
 .hometxt img {
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 /************ ABOUT ME **************/
@@ -473,36 +473,63 @@ textarea {
 			MEDIA QUERIES
 *****************************************/
 /* Larger than mobile */
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 399px) {
 	.hometxt {
-		font-size: 1.45em;
-		line-height: 40px;
-		margin-top: 240px;
+		font-size: 2.8em;
+		line-height: 100px;
 		margin-left: 0px;
+		margin-top: 230px;
+	}
+
+	.hometxt img {
+		width: 280px;
 	}
 
 	.aboutmewrapper {
-		width: 95%;
-	}
-
-	.portfolio-wrapper {
 		width: 90%;
 	}
 
+	.portfolio-wrapper {
+		width: 80%;
+	}
+
 	ul#nav li {
-		font-size: 1.1rem;
-		margin: 0 10px;
-		margin-top: -15px;
+		font-size: 1.2em;
+		margin-top: 5px;
+		margin: 0 20px;
+	}
+
+	ul#nav li {
+		margin: 0 5px 0px 5px;
+	}
+
+	ul#nav li a {
+		text-decoration: none;
+		color: black;
+		font-family: VegurRegular;
+		font-size: 0.9em;
+	}
+
+	#group3 {
+		height: 2000px;
+	}
+
+	#group5 {
+		height: 1450px;
 	}
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-width: 549px) {
 	.hometxt {
-		font-size: 1.8em;
-		line-height: 60px;
-		margin-top: 240px;
+		font-size: 2.8em;
+		line-height: 100px;
 		margin-left: 0px;
+		margin-top: 230px;
+	}
+
+	.hometxt img {
+		width: 350px;
 	}
 
 	.aboutmewrapper {
@@ -510,18 +537,43 @@ textarea {
 	}
 
 	.portfolio-wrapper {
-		width: 85%;
+		width: 80%;
 	}
 
 	ul#nav li {
-		font-size: 1.3rem;
-		margin-top: 0px;
-		margin: 0 10px;
+		font-size: 1.2em;
+		margin-top: 5px;
+		margin: 0 20px;
+	}
+
+	ul#nav li {
+		margin: 0 5px 0px 5px;
+	}
+
+	ul#nav li a {
+		text-decoration: none;
+		color: black;
+		font-family: VegurRegular;
+		font-size: 0.9em;
+	}
+
+	#group3 {
+		height: 1800px;
+	}
+
+	#group5 {
+		height: 1450px;
 	}
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) and (max-width: 749px) {
+	.hometxt {
+		font-size: 2.8em;
+		line-height: 100px;
+		margin-top: 180px;
+	}
+
 	.hometxt img {
 		width: 400px;
 	}
@@ -535,16 +587,24 @@ textarea {
 	}
 
 	ul#nav li {
-		font-size: 1.8rem;
+		font-size: 1.2em;
 		margin-top: 5px;
 		margin: 0 20px;
 	}
+
 	ul#nav li {
-		margin: 0 10px 0px 10px;
+		margin: 0 5px 0px 5px;
+	}
+
+	ul#nav li a {
+		text-decoration: none;
+		color: black;
+		font-family: VegurRegular;
+		font-size: 0.9em;
 	}
 
 	#group3 {
-		height: 1000px;
+		height: 1200px;
 	}
 
 	#group7 {
@@ -555,8 +615,21 @@ textarea {
 
 /* Larger than tablet */
 @media (min-width: 750px) and (max-width: 999px) {
+	.hometxt {
+		font-size: 2.8em;
+		line-height: 100px;
+		margin-top: 180px;
+	}
+
 	.hometxt img {
 		width: 450px;
+	}
+
+	ul#nav li a {
+		text-decoration: none;
+		color: black;
+		font-family: VegurRegular;
+		font-size: 1em;
 	}
 
 	.aboutmewrapper {
@@ -566,17 +639,18 @@ textarea {
 	.portfolio-wrapper {
 		width: 80%;
 	}
-	ul#nav li {
-		margin: 0 10px 0px 10px;
+	ul#nav li a {
+		margin: 15px 5px 0px 0px;
 	}
 
 	#group3 {
-		height: 1000px;
+		height: 1100px;
 	}
 
 	#group7 {
 		height: 700px;
 	}
+
 }
 
 /* Larger than desktop */
@@ -585,6 +659,14 @@ textarea {
 		font-size: 2.8em;
 		line-height: 100px;
 		margin-top: 170px;
+	}
+
+	ul#nav li a {
+		text-decoration: none;
+		color: black;
+		font-family: VegurRegular;
+		font-size: 1.3em;
+		margin: 15px 5px 0px 0px;
 	}
 
 	.aboutmewrapper {
@@ -600,5 +682,19 @@ textarea {
 @media (min-width: 1200px) {
 	.aboutmewrapper {
 		width: 75%;
+	}
+
+	.hometxt {
+		font-size: 2.8em;
+		line-height: 100px;
+		margin-top: 180px;
+	}
+
+	ul#nav li a {
+		text-decoration: none;
+		color: black;
+		font-family: VegurRegular;
+		font-size: 1.3em;
+		margin: 15px 5px 0px 5px;
 	}
 }
