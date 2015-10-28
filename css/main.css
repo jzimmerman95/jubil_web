@@ -493,21 +493,16 @@ textarea {
 		width: 80%;
 	}
 
-	ul#nav li {
-		font-size: 1.2em;
-		margin-top: 5px;
-		margin: 0 20px;
+	.navTop {
+		display: none;
 	}
 
-	ul#nav li {
-		margin: 0 5px 0px 5px;
+	.nav-name {
+		width: 50px;
 	}
 
-	ul#nav li a {
-		text-decoration: none;
-		color: black;
-		font-family: VegurRegular;
-		font-size: 0.9em;
+	.process-logo img {
+		width: 150px;
 	}
 
 	#group3 {
@@ -540,21 +535,16 @@ textarea {
 		width: 80%;
 	}
 
-	ul#nav li {
-		font-size: 1.2em;
-		margin-top: 5px;
-		margin: 0 20px;
+	.navTop {
+		display: none;
 	}
 
-	ul#nav li {
-		margin: 0 5px 0px 5px;
+	.nav-name img {
+		width: 75px;
 	}
 
-	ul#nav li a {
-		text-decoration: none;
-		color: black;
-		font-family: VegurRegular;
-		font-size: 0.9em;
+	.process-logo img {
+		width: 150px;
 	}
 
 	#group3 {
@@ -601,6 +591,10 @@ textarea {
 		color: black;
 		font-family: VegurRegular;
 		font-size: 0.9em;
+	}
+
+	.process-logo img {
+		width: 150px;
 	}
 
 	#group3 {
