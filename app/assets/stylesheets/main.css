@@ -4,27 +4,27 @@
 
 @font-face {
     font-family: VegurLight;
-    src: url("Vegur-Light.otf");
+    src: url("../fonts/Vegur-Light.otf");
 }
 
 @font-face {
     font-family: VegurRegular;
-    src: url("Vegur-Regular.otf");
+    src: url("../fonts/Vegur-Regular.otf");
 }
 
 @font-face {
     font-family: VegurBold;
-    src: url("Vegur-Bold.otf");
+    src: url("../fonts/Vegur-Bold.otf");
 }
 
 @font-face {
 	font-family: OverlockRegular;
-	src: url("Overlock-Regular-OTF.otf");
+	src: url("../fonts/Overlock-Regular-OTF.otf");
 }
 
 @font-face {
 	font-family: OverlockBold;
-	src: url("Overlock-Bold-OTF.otf");
+	src: url("../fonts/Overlock-Bold-OTF.otf");
 }
 
 /*****************************************
@@ -167,7 +167,7 @@ ul#nav li a:hover {
 }
 
 .portfolio-img-1 {
-	background: url("ilizwilam.png");
+	background: url("../images/ilizwilam.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -177,7 +177,7 @@ ul#nav li a:hover {
 }
 
 .portfolio-img-2 {
-	background: url("g2g.png");
+	background: url("../images/g2g.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -187,7 +187,7 @@ ul#nav li a:hover {
 }
 
 .portfolio-img-3 {
-	background: url("moonlighting.png");
+	background: url("../images/moonlighting.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -198,7 +198,7 @@ ul#nav li a:hover {
 }
 
 .portfolio-img-4 {
-	background: url("choosinggreen.png");
+	background: url("../images/choosinggreen.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -285,19 +285,19 @@ ul#nav li a:hover {
 }
 
 .linkedin {
-	background-image: url("linkedin.ico");
+	background-image: url("../images/linkedin.ico");
 }
 
 .github {
-	background-image: url("github.ico");
+	background-image: url("../images/github.ico");
 }
 
 .behance {
-	background-image: url("behance.ico");
+	background-image: url("../images/behance.ico");
 }
 
 .twitter {
-	background-image: url("twitter.ico");
+	background-image: url("../images/twitter.ico");
 }
 
 
@@ -406,7 +406,7 @@ textarea {
 	z-index: 3; /* slide under groups 1 and 3 */
 }
 #group2 .parallax__layer--back {
-	background-image: url("paint.jpg");
+	background-image: url("../images/paint.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -425,7 +425,7 @@ textarea {
 	height: 400px;
 }
 #group4 .parallax__layer--deep {
-	background-image: url("productivity.jpg"); 
+	background-image: url("../images/productivity.jpg"); 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -452,7 +452,7 @@ textarea {
 	height: 400px;
 }
 #group6 .parallax__layer--back {
-	background-image: url("contact.jpg"); 
+	background-image: url("../images/contact.jpg"); 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
