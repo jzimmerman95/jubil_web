@@ -167,7 +167,7 @@ ul#nav li a:hover {
 }
 
 .portfolio-img-1 {
-	background: url("ilizwilam.png");
+	background: url("https://s3.amazonaws.com/jubil/ilizwilam.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -177,7 +177,7 @@ ul#nav li a:hover {
 }
 
 .portfolio-img-2 {
-	background: url("g2g.png");
+	background: url("https://s3.amazonaws.com/jubil/g2g.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -187,7 +187,7 @@ ul#nav li a:hover {
 }
 
 .portfolio-img-3 {
-	background: url("moonlighting.png");
+	background: url("https://s3.amazonaws.com/jubil/moonlighting.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -198,7 +198,7 @@ ul#nav li a:hover {
 }
 
 .portfolio-img-4 {
-	background: url("choosinggreen.png");
+	background: url("https://s3.amazonaws.com/jubil/choosinggreen.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -406,7 +406,7 @@ textarea {
 	z-index: 3; /* slide under groups 1 and 3 */
 }
 #group2 .parallax__layer--back {
-	background-image: url("paint.jpg");
+	background-image: url("https://s3.amazonaws.com/jubil/paint.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -425,7 +425,7 @@ textarea {
 	height: 400px;
 }
 #group4 .parallax__layer--deep {
-	background-image: url("productivity.jpg"); 
+	background-image: url("https://s3.amazonaws.com/jubil/productivity.jpg"); 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -452,7 +452,7 @@ textarea {
 	height: 400px;
 }
 #group6 .parallax__layer--back {
-	background-image: url("contact.jpg"); 
+	background-image: url("https://s3.amazonaws.com/jubil/contact.jpg"); 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
